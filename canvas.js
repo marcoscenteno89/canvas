@@ -502,7 +502,6 @@ class Line {
   draw() {
     this.setColor(this.color);
     this.p.line(this.start.x, this.start.y, this.end.x, this.end.y);
-    this.updatePrev();
   }
 }
 
