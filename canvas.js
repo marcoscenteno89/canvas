@@ -71,7 +71,6 @@ const ranVector = (canvas, size) => {
   return canvas.p.createVector(x, y);
 }
 
-// TO-DO Separate madecontact method into made contact y and made contact x 
 class CanvasManager {
   constructor(p5, p, elem) {
     this.canvas = p.createCanvas(elem.offsetWidth, elem.offsetHeight, elem);
